@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A2E"
+    android:padding="12dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/widget_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="📰 NewsFlow"
+            android:textSize="14sp"
+            android:textColor="#F0F0F5"
+            android:textStyle="bold" />
+
+        <!-- Refresh button -->
+        <TextView
+            android:id="@+id/widget_unread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="#FF9A6B"
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Refresh button -->
+        <TextView
+            android:id="@+id/btn_widget_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  ↻ Refresh  "
+            android:textSize="11sp"
+            android:textColor="#8C8C99"
+            android:textStyle="bold"
+            android:background="#33334D"
+            android:padding="4dp" />
+    </LinearLayout>
+
+    <!-- Stories list -->
+    <ListView
+        android:id="@+id/widget_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="4dp" />
+
+    <!-- Empty state -->
+    <TextView
+        android:id="@+id/widget_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Open NewsFlow to load stories"
+        android:textSize="12sp"
+        android:textColor="#8C8C99" />
+</LinearLayout>

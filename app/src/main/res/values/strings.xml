@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewsFlow</string>
+    <string name="channel_name">News Updates</string>
+    <string name="channel_description">Get notified about new articles</string>
+    <string name="new_article_title">New Article</string>
+    <string name="new_articles_count">%d New Articles</string>
+</resources>

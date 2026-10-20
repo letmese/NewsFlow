@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deep backgrounds -->
+    <color name="bg_dark">#050510</color>
+    <color name="colorPrimary">#0A0A14</color>
+    <color name="colorPrimaryDark">#050510</color>
+    <color name="colorAccent">#FF6B4A</color>
+    <color name="bg_dark_light">#F5F5FA</color>
+    <color name="colorPrimaryDark_light">#EEEEF3</color>
+</resources>

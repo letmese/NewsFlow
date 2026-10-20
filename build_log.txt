@@ -1,0 +1,71 @@
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 35
+
+This Android Gradle plugin (8.5.2) was tested up to compileSdk = 34.
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 35.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 35 is available.
+
+For more information refer to the compatibility table:
+https://d.android.com/r/tools/api-level-support
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=35
+to this project's gradle.properties.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeDebugStartupProfile UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+w: file:///C:/Users/xbxga/AppData/Roaming/Tencent/Marvis/User/oAN1i2YUvCbWP_4W7LanZr7Qb3zA/workspace/conv_489cf283eb984a82b46cead83f3ec4f1/output/NewsFlow-Compose/app/src/main/java/com/newsaggregator/MainActivity.kt:241:26 'val LocalLifecycleOwner: ProvidableCompositionLocal<LifecycleOwner>' is deprecated. Moved to lifecycle-runtime-compose library in androidx.lifecycle.compose package.
+w: file:///C:/Users/xbxga/AppData/Roaming/Tencent/Marvis/User/oAN1i2YUvCbWP_4W7LanZr7Qb3zA/workspace/conv_489cf283eb984a82b46cead83f3ec4f1/output/NewsFlow-Compose/app/src/main/java/com/newsaggregator/utils/RssParser.kt:231:61 Condition is always 'true'.
+w: file:///C:/Users/xbxga/AppData/Roaming/Tencent/Marvis/User/oAN1i2YUvCbWP_4W7LanZr7Qb3zA/workspace/conv_489cf283eb984a82b46cead83f3ec4f1/output/NewsFlow-Compose/app/src/main/java/com/newsaggregator/utils/RssParser.kt:257:37 Condition is always 'true'.
+w: file:///C:/Users/xbxga/AppData/Roaming/Tencent/Marvis/User/oAN1i2YUvCbWP_4W7LanZr7Qb3zA/workspace/conv_489cf283eb984a82b46cead83f3ec4f1/output/NewsFlow-Compose/app/src/main/java/com/newsaggregator/utils/RssParser.kt:370:83 Java type mismatch: inferred type is 'String?', but 'String' was expected.
+w: file:///C:/Users/xbxga/AppData/Roaming/Tencent/Marvis/User/oAN1i2YUvCbWP_4W7LanZr7Qb3zA/workspace/conv_489cf283eb984a82b46cead83f3ec4f1/output/NewsFlow-Compose/app/src/main/java/com/newsaggregator/widgets/NewsWidgetProvider.kt:138:19 'fun setRemoteAdapter(p0: Int, p1: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/xbxga/AppData/Roaming/Tencent/Marvis/User/oAN1i2YUvCbWP_4W7LanZr7Qb3zA/workspace/conv_489cf283eb984a82b46cead83f3ec4f1/output/NewsFlow-Compose/app/src/main/java/com/newsaggregator/widgets/NewsWidgetProvider.kt:173:21 'fun notifyAppWidgetViewDataChanged(p0: Int, p1: Int): Unit' is deprecated. Deprecated in Java.
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics FROM-CACHE
+> Task :app:processDebugJavaRes
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 44s
+36 actionable tasks: 7 executed, 1 from cache, 28 up-to-date
