@@ -5,6 +5,10 @@ app/build/
 *.apk
 *.aab
 
+## Large video binaries (keep locally / releases)
+videos/
+*.mp4
+
 ## IDE
 .idea/
 .kotlin/
