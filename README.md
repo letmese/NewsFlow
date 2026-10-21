@@ -18,17 +18,17 @@
 ## 📱 Live App Screenshots (Firebase Test Lab Robo Run)
 
 <div align="center">
-  <img src="screenshots/1.png" width="220" alt="NewsFlow Feed" />
-  <img src="screenshots/2.png" width="220" alt="NewsFlow Articles" />
+  <img src="screenshots/2.png" width="220" alt="NewsFlow Main Live News Feed" />
   <img src="screenshots/3.png" width="220" alt="NewsFlow Reading View" />
-  <img src="screenshots/4.png" width="220" alt="NewsFlow Details" />
+  <img src="screenshots/4.png" width="220" alt="NewsFlow Article Details" />
+  <img src="screenshots/5.png" width="220" alt="NewsFlow Category Filter" />
 </div>
 
 <div align="center">
-  <img src="screenshots/5.png" width="220" alt="NewsFlow Categories" />
-  <img src="screenshots/6.png" width="220" alt="NewsFlow Settings" />
   <img src="screenshots/7.png" width="220" alt="NewsFlow Live Feeds" />
-  <img src="screenshots/8.png" width="220" alt="NewsFlow Widgets" />
+  <img src="screenshots/8.png" width="220" alt="NewsFlow Glass Widgets" />
+  <img src="screenshots/11.png" width="220" alt="Material 3 Full Article View" />
+  <img src="screenshots/13.png" width="220" alt="Bilingual Typography & RTL" />
 </div>
 
 ---
